@@ -1,0 +1,2 @@
+# bmpFilesBatchProcess
+批量处理一个文件夹里面的bmp图像
