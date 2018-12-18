@@ -12,6 +12,12 @@ import ImageProcessUI
 import ChannelProcessorUI
 
 class Ui_MainWindow(object):
+    def __init__(self):
+        self.dirPath = "None"
+    def selectDir(self):
+        #file_name = QtWidgets.QFileDialog.getOpenFileName(self,"open file dialog","","Txt files(*.txt)")
+        self.dirPath =QtWidgets.QFileDialog.getExistingDirectory(None,"choose directory",os.getcwd())
+        self.label.setText("loaded Directory: "+self.dirPath)
     #打开其他窗体的调用，一定得用self.value来定义窗体，如果用一个临时变量，则窗体会一闪而过，不能停留。
     def wholeImageWindow(self):
         self.window = QtWidgets.QDialog()
@@ -124,7 +130,4 @@ class Ui_MainWindow(object):
     def printMessage(self):
         print("choose files")
     
-    def selectDir(self):
-        #file_name = QtWidgets.QFileDialog.getOpenFileName(self,"open file dialog","","Txt files(*.txt)")
-        self.dirPath =QtWidgets.QFileDialog.getExistingDirectory(None,"choose directory",os.getcwd())
-        self.label.setText("loaded Directory: "+self.dirPath)
+    

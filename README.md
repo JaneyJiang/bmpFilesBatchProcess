@@ -1,5 +1,7 @@
 # bmpFilesBatchProcess
-æ‰¹é‡å¤„ç†ä¸€ä¸ªæ–‡ä»¶å¤¹é‡Œé¢çš„bmpå›¾åƒ
-æ¯æ¬¡å¯ä»¥å¤„ç†ä¸€ä¸ªæ–‡ä»¶å¤¹é‡Œçš„å›¾åƒ
-äº®åº¦ï¼Œå¯¹æ¯”åº¦ï¼Œè‰²å½©ï¼Œé”åº¦
-RGBæ¯ä¸ªé€šé“çš„å¢žåŠ æˆ–è€…å‡å°ã€‚å¯¹åƒç´ è¿›è¡ŒåŠ æˆ–è€…ä¹˜
+ÅúÁ¿´¦ÀíÎÄ¼þ¼ÐÖÐµÄbmpÍ¼Æ¬¡£
+Á½ÖÖÄ£Ê½£º
+ÕûÕÅÍ¼Æ¬£ºÁÁ¶È£¬¶Ô±È¶È£¬Èñ¶È£¬É«²Ê£¬
+µ¥¸öÍ¨µÀ´¦Àí£ºR,G,B,A,ÓÐÁ½ÖÖ¼ÆËã·½·¨£¬¼Ó·¨£¬³Ë·¨
+±àÒë³ÉÒ»¸ö¶ÀÁ¢exeµÄÃüÁî¡£
+pyinstaller -F -w -i icon\32px_529846.ico testQt.py

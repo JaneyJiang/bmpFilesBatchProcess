@@ -15,7 +15,7 @@ if __name__=="__main__":
     #w.resize(400, 200)
     #w.setWindowTitle("hello PyQt5")
     MainWindow.show()
-    exit(app.exec_())
+    sys.exit(app.exec_())
 '''
     app = QtWidgets.QApplication(sys.argv)
     
